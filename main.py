@@ -15,7 +15,7 @@ import re
 import cohere
 import os
 
-co = cohere.Client('O2t727l4FVv5GzufLEuYqDpi2oNAFRKrjhXB2ZVJ') # Always hide API key
+co = cohere.Client('API_KEY') # Always hide API key
 
 data = {
     'CustomerID': [1, 2, 3, 4, 5],
